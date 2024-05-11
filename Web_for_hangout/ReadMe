@@ -1,0 +1,83 @@
+Location: How far is it from your current location? Is it easily accessible by public transport or car?
+Atmosphere/Ambiance: What kind of vibe does the place have? Is it cozy, lively, relaxed, or upscale?
+Activities: What can you do there? Is there music, games, or other entertainment available?
+Food/Drink Options: Are there good food and drink options available? Does it cater to your dietary preferences?
+Cost: Is it affordable for you? Are there any specials or deals available?
+Crowd: What kind of crowd does it attract? Are you looking for a quiet place or somewhere with lots of people?
+Safety: Is the area safe, especially if you're going out at night?
+Reviews/Recommendations: Have others had positive experiences there? Checking online reviews or asking friends can be helpful.
+Special Events: Are there any special events or promotions happening there that might make it more appealing?
+Personal Preferences: Ultimately, what matters most is what you enjoy. Consider your own preferences and interests when making your decision.
+
+
+
+for the get_type.csv columns meaning: 
+Attribute 1 : Unique user id
+Attribute 2 : Average user feedback on art galleries
+Attribute 3 : Average user feedback on dance clubs
+Attribute 4 : Average user feedback on juice bars
+Attribute 5 : Average user feedback on restaurants
+Attribute 6 : Average user feedback on museums
+Attribute 7 : Average user feedback on resorts
+Attribute 8 : Average user feedback on parks/picnic spots
+Attribute 9 : Average user feedback on beaches
+Attribute 10 : Average user feedback on theaters
+
+
+for latvia_travel_recommendation.csv:
+Destination,
+Location,
+No_of_Excellent,
+Very_Good,
+Average,
+poor,
+Terrible,
+Total_Review,
+Rating,
+Transport_means,
+Tour_cost
+
+
+dataset of european_restaurants:
+restaurant_link,
+restaurant_name,
+original_location,
+country,
+region,
+province,
+city,
+address,
+latitude,
+longitude,
+claimed,
+awards,
+popularity_detailed,
+popularity_generic,
+top_tags,
+price_level,
+price_range,
+meals,
+cuisines,
+special_diets,
+features,
+vegetarian_friendly,
+vegan_options,
+gluten_free,
+original_open_hours,
+open_days_per_week,
+open_hours_per_week,
+working_shifts_per_week,
+avg_rating,
+total_reviews_count,
+default_language,
+reviews_count_in_default_language,
+excellent,
+very_good,
+average,
+poor,
+terrible,
+food,
+service,
+value,
+atmosphere,
+keywords

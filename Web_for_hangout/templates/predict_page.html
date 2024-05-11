@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+</head>
+<body>
+    <h2>Enter Prediction Information</h2>
+    <form action="/predict_page" method="POST">
+        <label for="days_off">Days Off:</label>
+        <input type="number" id="days_off" name="days_off" required><br>
+
+        <label>Long Travel (Yes/No):</label><br>
+        <input type="radio" id="long_travel_yes" name="long_travel" value="Yes" required>
+        <label for="long_travel_yes">Yes</label><br>
+        <input type="radio" id="long_travel_no" name="long_travel" value="No" required>
+        <label for="long_travel_no">No</label><br>
+
+        <label>Preferences:</label><br>
+        <input type="checkbox" id="art_galleries" name="type_of_prefer" value="art galleries">
+        <label for="art_galleries">Art Galleries</label><br>
+
+        <input type="checkbox" id="dance_clubs" name="type_of_prefer" value="dance clubs">
+        <label for="dance_clubs">Dance Clubs</label><br>
+
+        <input type="checkbox" id="juice_bars" name="type_of_prefer" value="juice bars">
+        <label for="juice_bars">Juice Bars</label><br>
+
+        <input type="checkbox" id="restaurants" name="type_of_prefer" value="restaurants">
+        <label for="restaurants">Restaurants</label><br>
+
+        <input type="checkbox" id="museums" name="type_of_prefer" value="museums">
+        <label for="museums">Museums</label><br>
+
+        <input type="checkbox" id="resorts" name="type_of_prefer" value="resorts">
+        <label for="resorts">Resorts</label><br>
+
+        <input type="checkbox" id="parks_picnic_spots" name="type_of_prefer" value="parks picnic spots">
+        <label for="parks_picnic_spots">Parks/Picnic Spots</label><br>
+
+        <input type="checkbox" id="beaches" name="type_of_prefer" value="beaches">
+        <label for="beaches">Beaches</label><br>
+
+        <input type="checkbox" id="theaters" name="type_of_prefer" value="theaters">
+        <label for="theaters">Theaters</label><br>
+
+        <label for="budget">Budget:</label>
+        <input type="text" id="budget" name="budget" required><br>
+        <button type="submit" onclick="window.location.href='/recommendation'">Submit</button>
+        
+    </form>
+</body>
+</html>
